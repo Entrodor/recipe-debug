@@ -5,30 +5,30 @@ plugins {
 // Change the values below this to your mods values
 // To change the project name, edit the settings.gradle file
 
-project.ext.modID = "fair.examplemod" // The unique id of your mod. Must be all lowercase and cannot use special characters.
-project.ext.modName = "Example Mod" // The display name of your mod.
+project.ext.modID = "entrodor.recipedebug" // The unique id of your mod. Must be all lowercase and cannot use special characters.
+project.ext.modName = "Recipe Debug" // The display name of your mod.
 project.ext.modVersion = "1.0" // Your current builds version. Must follow the xx.xx... format.
-project.ext.gameVersion = "1.0.2" // The target game version.
-project.ext.modDescription = "Just an example mod" // Short description of what your mod is.
-project.ext.author = "Fair" // Your name
+project.ext.gameVersion = "1.1.1" // The target game version.
+project.ext.modDescription = "Small mod to help mod/modpack developers debug recipes on client/server" // Short description of what your mod is.
+project.ext.author = "Entrodor" // Your name
 
 /**
  * When setting clientside to true, it means servers do not need this mod for clients to connect and vice versa.
  * IMPORTANT: If you set this to true, make sure that your mod does not add any content or do anything
  * that could cause clients and servers to desync. This includes registering any items, objects, tiles, packets etc.
  */
-project.ext.clientside = false
+project.ext.clientside = true
 
 /**
  * The other mod dependencies of this mod
  * Dependencies define the default load order of mods
  * Uncomment and configure these if your mod has dependencies
  */
-//project.ext.modDependencies = ["other.modid1", "other.modid2"]
+//project.ext.modDependencies = ["hill.autominer"]
 //project.ext.modOptionalDependencies = ["optional.modid1", "optional.modid2"]
 
 // The path to the games install directory
-def gameDirectory = "C:/Program Files (x86)/Steam/steamapps/common/Necesse"
+def gameDirectory = "F:/Games/Steam/steamapps/common/Necesse"
 
 // =================================================
 // ========== DO NOT EDIT BELOW THIS LINE ==========
