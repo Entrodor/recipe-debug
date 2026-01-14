@@ -7,7 +7,7 @@ plugins {
 
 project.ext.modID = "entrodor.recipedebug" // The unique id of your mod. Must be all lowercase and cannot use special characters.
 project.ext.modName = "Recipe Debug" // The display name of your mod.
-project.ext.modVersion = "1.0" // Your current builds version. Must follow the xx.xx... format.
+project.ext.modVersion = "1.1" // Your current builds version. Must follow the xx.xx... format.
 project.ext.gameVersion = "1.1.1" // The target game version.
 project.ext.modDescription = "Small mod to help mod/modpack developers debug recipes on client/server" // Short description of what your mod is.
 project.ext.author = "Entrodor" // Your name
